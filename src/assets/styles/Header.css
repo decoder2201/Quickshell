@@ -1,0 +1,196 @@
+.header_container {
+    margin-bottom: 10px;
+    /* background-color: aqua; */
+    padding: 10px 0vw;
+}
+
+.header_display {
+    width: 100px;
+    background-color: rgba(233, 219, 219, 0.238);
+    box-shadow: 0.2px 0.2px 5px rgba(74, 74, 74, 0.481);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    font-weight: 400;
+    color: gray;
+    margin-left: 2px;
+}
+
+.header_display:hover {
+    display: block;
+    color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+
+.header_dis {
+    padding-left: 0.5vw;
+    position: absolute;
+    top: 0.25vw;
+}
+
+.header_dis_icon2 {
+    position: absolute;
+    right: 6px;
+    top: 7px;
+}
+
+.header_icons {
+    color: rgb(141, 141, 141);
+    padding-left: 1vw;
+    font-size: 25px;
+}
+
+.header_icons_container {
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+
+/* .header_dis_ic{
+    font-size: 1.4vw;
+
+} */
+.header_icons:hover {
+    display: block;
+    color: rgb(47, 46, 46);
+    cursor: pointer;
+}
+
+.header_popup {
+    padding: 15px 20px;
+    position: absolute;
+    width: 172px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.2px 0.2px 5px rgba(74, 74, 74, 0.481);
+    border-radius: 5px;
+    margin-top: 10px;
+    left: 25px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.header_select {
+    width:80px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.header_order {
+    width: 80px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+    margin-left: 6.5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.order{
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+
+.header_grp{
+    position: relative;
+    padding-left: 18px;
+    font-size: 15px;
+    color: rgb(86, 86, 86);
+}
+
+option:hover{
+    background-color: pink;
+}
+
+.header_anchor{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+    .header_container {
+        margin-bottom: 10px;
+        padding: 15px 0vw;
+    }
+    .header_display {
+        width: 90px;
+    }
+    .header_dis {
+        padding-left: 3px;
+        top: 1.5px;
+        font-size: 16px;
+    }
+    .header_dis_icon2 {
+        right: 4px;
+        top: 5px;
+    }
+    .header_popup {
+        padding: 8px 18px;
+        padding-bottom: 10px;
+        width: 140px;
+    }
+    
+    .header_select {
+        width:65px;
+        font-size: 10px;
+    }
+    .header_order {
+        width: 65px;
+        padding: 1px 3px;
+        font-size: 10px;
+    }
+    .order{
+        position: absolute;
+        top: 1.8px;
+        left: 0px;
+    }
+    
+    .header_grp{
+        position: relative;
+        padding-left: 15px;
+        font-size: 12px;
+        color: rgb(86, 86, 86);
+    }
+    .header_icons {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    
+    .header_icons_container {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header_container {
+        margin-bottom: 10px;
+        padding: 10px 0vw;
+    }
+
+    .header_display {
+        width: 92px;
+        padding: 5px;
+    }
+
+    .header_dis {
+        padding-left: 3px;
+        top: 2.5px;
+    }
+
+    .header_dis_icon2 {
+        right: 4px;
+        top: 6.5px;
+    }
+    
+    .header_icons {
+        padding-left: 12px;
+    }
+    
+    .header_icons_container {
+        right: 25px;
+        top: 22px;
+    }
+    
+}

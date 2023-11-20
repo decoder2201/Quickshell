@@ -1,0 +1,163 @@
+.card_container {
+  width: 22vw;
+  margin-top: 1vw;
+  margin-bottom: 5vw;
+  border: 1px solid rgb(214, 213, 213);
+  border-radius: 8px;
+  padding: 1vw 2vw;
+  box-shadow: 0.2px 0.2px 5px rgba(128, 128, 128, 0.481);
+  background: rgba(255, 255, 255, 0.281);
+  font-family: 'Exo 2', sans-serif;
+  padding: 2vw;
+  padding-top: 0vw;
+  transition: transform .4s;
+}
+
+.card_id_no {
+  color: gray;
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.card_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
+}
+
+.card_container:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(5px);
+}
+
+.card_title {
+  font-weight: 600;
+  color: rgb(76, 76, 76);
+  font-size: 1.2vw;
+  margin: 0vw;
+  margin-bottom: 1vw;
+}
+
+.card_user_image {
+  border-radius: 50%;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid gray;
+}
+
+.cardTags {
+  display: flex;
+  align-items: left;
+  gap: 1vw;
+}
+
+.card_tag1 {
+  width: max-content;
+  padding: 0.2vw 0.6vw;
+  padding-top: 0.55vw;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px 5px rgba(128, 128, 128, 0.448);
+  color: grey;
+  font-size: 1.3vw;
+}
+
+.card_tag2 {
+  width: max-content;
+  padding: 0.1vw 0.6vw;
+  padding-top: 0.3vw;
+  padding-bottom: 6px;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px 5px rgba(128, 128, 128, 0.448);
+  color: grey;
+  font-size: 1.3vw;
+}
+
+.card_dot {
+  position: relative;
+  top: 0.2vw;
+  color: rgb(179, 179, 179);
+}
+
+
+@media screen and (max-width: 750px) {
+  .card_container {
+    width: 35vw;
+    margin-top: 2vw;
+  }
+
+  .card_id_no {
+    font-size: 2vw;
+  }
+
+  .card_title {
+    font-weight: 400;
+    font-size: 1.6vw;
+    margin-bottom: 2vw;
+    margin-top: 0.5vw;
+  }
+
+  .cardTags {
+    gap: 2vw;
+  }
+
+  .card_tag1 {
+    padding: 0.2vw 0.8vw;
+    padding-top: 0.85vw;
+    font-size: 1.8vw;
+  }
+
+  .card_tag2 {
+    font-size: 1.8vw;
+    padding-top: 0px;
+  }
+
+  .card_dot {
+    top: 0.6vw;
+    font-size: 2.4vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card_container {
+    width: 65vw;
+    margin-top: 3vw;
+    padding: 4vw;
+    padding-top: 2vw;
+  }
+
+  .card_id_no {
+    font-size: 4vw;
+  }
+
+  .card_title {
+    font-weight: 400;
+    font-size: 4vw;
+    margin-bottom: 4vw;
+    margin-top: 1vw;
+  }
+
+  .cardTags {
+    gap: 3vw;
+  }
+
+  .card_tag1 {
+    padding: 1vw 2vw;
+    padding-top: 1.8vw;
+    font-size: 4vw;
+  }
+
+  .card_tag2 {
+    font-size: 4vw;
+    padding: 1vw 2vw;
+    padding-top: 1vw;
+  }
+
+  .card_dot {
+    top: 0.6vw;
+    font-size: 4vw;
+  }
+}

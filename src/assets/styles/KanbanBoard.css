@@ -1,0 +1,113 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    background-color: rgba(233, 219, 219, 0.238);
+    border-radius: 10px;
+    box-shadow: 0.2px 0.2px 5px rgba(128, 128, 128, 0.481);
+    /* height: 100vh; */
+}
+
+.board_navigations:hover{
+    cursor: pointer;
+}
+
+.Board_container {
+    width: 26vw;
+    margin: 0vw auto;
+    margin-top: 2vw;
+}
+
+.heading_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 1vw;
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.board_user_icon_container {
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 0vw;
+    width: 16px;
+    height: 16px;
+    border: 2px solid gray;
+}
+
+.board_user_icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.board_icon {
+    padding-right: 8px;
+
+}
+
+.board_card_count {
+    color: gray;
+    padding-left: 1vw;
+    font-weight: 600;
+}
+
+.board_title {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 800;
+    position: relative;
+    top: -0.15vw;
+    left: 0.2vw;
+}
+
+
+@media screen and (max-width: 750px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Board_container {
+        width: 39vw;
+        margin-top: 4vw;
+    }
+
+    .board_title {
+        font-size: 2.3vw;
+        font-weight: 600;
+        top: -0.3vw;
+        left: 0.2vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgba(229, 194, 194, 0.238);
+
+    }
+
+    .Board_container {
+        width: 73vw;
+        margin-top: 8vw;
+    }
+
+    .board_title {
+        font-size: 5vw;
+        font-weight: 400;
+        top: -0.6vw;
+        left: 0.2vw;
+    }
+
+    .board_card_count {
+        padding-left: 3vw;
+        font-weight: 400;
+        font-size: 4vw;
+    }
+
+    .heading_icons {
+        padding: 0vw 2.5vw;
+    }
+}

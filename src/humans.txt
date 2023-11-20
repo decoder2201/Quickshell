@@ -1,0 +1,33 @@
+     /\            ___                  
+    /  \ |\ | |/ |  |    
+   / /\ \| \| |\ |  |     
+   \/  \/                        
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+<|| Fullstack and Flutter Developern ||>
+
+Ankit Anand | フルスタックおよびフラッター開発者
+undergarduate GLA University
+
+Social Platforms:
+LinkedIn:- https://www.linkedin.com/in/ankit-anand-437187215
+Github:- https://github.com/codeBurner0
+
+_______________________________________________________________________________
+
+TECHNOLOGIES AND LIBRARIES USED | 使用されるテクノロジーとライブラリ
+
+
+React
+Redux
+React-Icons
+
+_______________________________________________________________________________
+
+FONT | フォント
+
+Exo 2
